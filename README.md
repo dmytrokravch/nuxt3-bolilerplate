@@ -31,12 +31,6 @@ Developer experience first:
 - Layered and Modular Architecture with SOLID Principles
 - Cache pages with redis
 
-### Nextless.js SaaS Boilerplate
-
-Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
-
 ### Requirements
 
 - Node.js 14+ and yarn
@@ -47,7 +41,7 @@ Run the following command on your local environment:
 
 ```shell
 git clone --depth=1 https://github.com/dmytrokravch/nuxt3-bolilerplate project-name
-cd mproject-name
+cd project-name
 yarn install
 ```
 
