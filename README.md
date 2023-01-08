@@ -1,4 +1,4 @@
-# nuxt3-bolilerplate
+# Nuxt3 bolilerplate
 Boilerplate and Starter for Nuxt 3, Tailwind CSS, TypeScript and more
 
 Boilerplate and Starter for Nuxt 3, Tailwind CSS and TypeScript. Made with developer experience first: Nuxt 3, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Commitlint, Netlify, PostCSS, Tailwind CSS.
