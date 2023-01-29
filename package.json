@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "description": "Nuxt 3 Boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmytrokravch/nuxt3-boilerplate"
+  },
+  "author": "dmytrokravch",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "husky preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
+    "lintfix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
+    "prepare": "husky install",
+    "clean": "rm -rf .nuxt dist .output"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "nuxt": "^3.1.0",
+    "yarn": "^1.22.19"
+  },
+  "dependencies": {},
+  "lint-staged": {
+    "**/*.{js,ts,vue,html}": [
+      "yarn lintfix"
+    ]
+  }
+}
