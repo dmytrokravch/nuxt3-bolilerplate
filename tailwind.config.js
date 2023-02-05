@@ -1,5 +1,3 @@
-const defaultTheme = 'tailwindcss/defaultTheme'
-
 const MyTheme = {
   colors: {
     gray: {
@@ -46,7 +44,7 @@ module.exports = {
         '6xl': '4rem',
       },
       fontFamily: {
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+        sans: ['Poppins'],
       },
     },
   },
