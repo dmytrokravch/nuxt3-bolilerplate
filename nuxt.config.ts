@@ -15,11 +15,21 @@ export default defineNuxtConfig({
             name: 'Nuxt Boilerplate EN',
             description: 'Nuxt Boilerplate description',
           },
+          pages: {
+            404: {
+              title: 'Page not found',
+            },
+          },
         },
         pl: {
           app: {
             name: 'Nuxt Boilerplate PL',
             description: 'Nuxt Boilerplate opis',
+          },
+          pages: {
+            404: {
+              title: 'Strona nie znallieziona',
+            },
           },
         },
       },
