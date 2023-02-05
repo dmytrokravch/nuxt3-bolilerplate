@@ -11,25 +11,23 @@ Developer experience first:
 
 - Nuxt3 for SSG or SSR
 - Pinia state & store managment
-- I18n localization (nuxt/i18n)
 - Type checking (TypeScript)
-- Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Linter with [ESLint](https://eslint.org) (default Airbnb configuration)
 - Code Formatter with [Prettier](https://prettier.io)
-- Husky for Git Hooks
 - Lint-staged for running linters on Git staged files
+- Husky for Git Hooks
 - Lint git commit with Commitlint
-- Standard compliant commit messages with Commitizen
-- Absolute Imports using `@` prefix
+- Production ready
+- I18n localization (nuxt/i18n)
 - VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
-- Sitemap.xml with nuxt/sitemap
-- One click deployment with Netlify (or manual deployment to any hosting services)
-- Include a minimalist theme
+- Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Maximize lighthouse score
 - SEO-friendly
-- Production ready
-- Layered and Modular Architecture with SOLID Principles
-- Cache pages with redis
+- Include a minimalist theme - IN PROGRESS
+- Sitemap.xml with nuxt/sitemap - IN PROGRESS
+- One click deployment with Netlify (or manual deployment to any hosting services) - IN PROGRESS
+- Layered and Modular Architecture with SOLID Principles - IN PROGRESS
+- Cache pages with redis - IN PROGRESS
 
 ### Requirements
 
@@ -53,7 +51,7 @@ yarn dev
 
 ### Customization
 
-TODO
+IN PROGRESS
 
 ### Deploy to production
 
