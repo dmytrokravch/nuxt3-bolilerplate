@@ -5,7 +5,7 @@ Boilerplate and Starter for Nuxt 3, Tailwind CSS and TypeScript. Made with devel
 
 Clone this project and use it to create your own Nuxt3 project.
 
-[Project Demo](https://moonlit-twilight-05599c.netlify.app/)
+[Project Demo](https://nuxt-3-starter.netlify.app/)
 
 ### Features
 
