@@ -5,6 +5,8 @@ Boilerplate and Starter for Nuxt 3, Tailwind CSS and TypeScript. Made with devel
 
 Clone this project and use it to create your own Nuxt3 project.
 
+[Project Demo](https://moonlit-twilight-05599c.netlify.app/)
+
 ### Features
 
 Developer experience first:
@@ -23,10 +25,9 @@ Developer experience first:
 - Integrate with [Tailwind CSS](https://tailwindcss.com)
 - Maximize lighthouse score
 - SEO-friendly
+- One click deployment with Netlify (or manual deployment to any hosting services)
 - Include a minimalist theme - IN PROGRESS
 - Sitemap.xml with nuxt/sitemap - IN PROGRESS
-- One click deployment with Netlify (or manual deployment to any hosting services) - IN PROGRESS
-- Layered and Modular Architecture with SOLID Principles - IN PROGRESS
 - Cache pages with redis - IN PROGRESS
 
 ### Requirements
@@ -48,10 +49,6 @@ Then, run it locally in development mode with live reload:
 ```shell
 yarn dev
 ```
-
-### Customization
-
-IN PROGRESS
 
 ### Deploy to production
 
